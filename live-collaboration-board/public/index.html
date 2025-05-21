@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Collaboration Board</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; background: #f8f8f8; }
+    #tools { position: absolute; top: 10px; left: 10px; z-index: 100; }
+  </style>
+</head>
+<body>
+  <div id="tools">
+    <button onclick="clearCanvas()">Clear</button>
+  </div>
+  <canvas id="board"></canvas>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
