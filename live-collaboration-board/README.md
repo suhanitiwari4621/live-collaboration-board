@@ -22,7 +22,3 @@ docker build -t live-collab-board .
 docker run -p 3000:3000 live-collab-board
 ```
 
-## 📁 Reports
-- PHASE_1.pdf
-- PHASE_2.pdf
-- PHASE_3.pdf
